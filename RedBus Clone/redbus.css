@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #D32F2F;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search-section {
+    background-color: #F5F5F5;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.search-section h2 {
+    margin-bottom: 20px;
+}
+
+#searchForm {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#searchForm input, #searchForm button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#searchForm button {
+    background-color: #D32F2F;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#searchForm button:hover {
+    background-color: #B71C1C;
+}
+
+.features, .popular-routes {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features h2, .popular-routes h2 {
+    margin-bottom: 20px;
+}
+
+.feature-box {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #D32F2F;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
